@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>ResortCraft</title>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">ResortCraft</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Home&nbsp;&nbsp;</a></li>
+            <li><a href="vote.html"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Vote&nbsp;&nbsp;</a></li>
+            <li><a href="www.donationsite.com"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;&nbsp;Donate&nbsp;&nbsp;</a></li>
+            <li><a href="staff.html"><span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;Staff&nbsp;&nbsp;</a></li>
+            <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;Contact&nbsp;&nbsp;</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br>
+<div id="homepageimagewell" class="well">
+    <br>
+        <img id="homepageimage" class="img-responsive" src="img/logo.png"></img>
+    </div>
+<style type="text/css">
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 768px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    	<!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+       <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <center><img src = "img/1.jpg"></center>
+                <h2>Slide 1</h2>
+                <div class="carousel-caption">
+                  <h3>First slide label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <center><img src = "img/2.jpg"></center>
+                <h2>Slide 2</h2>
+                <div class="carousel-caption">
+                  <h3>Second slide label</h3>
+                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                </div>
+            </div>
+            <div class="item">
+                <center><img src = "img/3.jpg"></center>
+                <h2>Slide 3</h2>
+                <div class="carousel-caption">
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
+</body>
+    <style>
+#homepageimage {
+    width:55%;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+#homepageimagewell {
+    width:100%;
+    padding:0px;
+}
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>
